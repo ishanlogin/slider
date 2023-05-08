@@ -1,0 +1,156 @@
+<html style="overflow-x: hidden;">
+   <head>
+      <title>Banner Text</title>
+      <script src="https://kit.fontawesome.com/0e80894354.js" crossorigin="anonymous"></script>
+      <style>
+         .scroll-text {
+  height: 50px; /* set the height of the container */
+  overflow: hidden; /* hide the overflow */
+}
+.scroll-text p {
+  animation: scroll 5s linear infinite; /* set the animation properties */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0); /* start at the top */
+  }
+  100% {
+    transform: translateY(-100%); /* end at the bottom */
+  }
+}
+
+         *{
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+         }
+         .banner{
+         background:url('https://e1.pxfuel.com/desktop-wallpaper/324/303/desktop-wallpaper-banner-backgrounds-flex-design.jpg');
+         height:422px;
+         background-size: cover;
+         }
+         .banner h1{
+         text-align: center;
+         font-size: 40px;
+         color: white;
+         padding: 180px;
+         }
+
+         span{
+         color:orange;
+         }
+         .demo{
+         color: black;
+         }
+         .text{
+         text-align: center;
+         font-size: 40px;
+         }
+         ul{
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         }
+         li{
+         padding: 30px;
+         }
+         li a{
+         text-decoration: none;
+         color: black;
+         position: relative;
+         left: 10rem;
+         font-size: 18px;
+         }
+         li a:hover{
+         color: orange;
+         transform: scale(1.5);
+         }
+         .img{
+         width:150px;
+         }
+         .marq{
+
+            direction: top to bottom;
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <li ><img class="img" src="C:\Users\hp\Desktop\login-360-new-logo-2.png"></li>
+               <li><a href="">Home</a></li>
+               <li><a href="">About Us</a></li>
+               <li><a href="">Services</a></li>
+               <li><a href="">Gallery</a></li>
+               <li><a href="">Contact Us</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="banner">
+                  <h1>Welcome to <span>Login</span> <span class="demo">360</span></h1>
+               </div>
+            </div>
+         </div>
+      </section>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.966634059009!2d80.21652267397891!3d12.973985914828198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d3154bf18fb%3A0x706bf6b0e2157ca9!2sLogin360!5e0!3m2!1sen!2sin!4v1681801060100!5m2!1sen!2sin" width="1200" height="450" style="border:0;" allowfullscreen=""></iframe>
+     <p>An iframe with default borders:</p>
+<iframe src="https://login360.in" width="100%" height="300">
+</iframe>
+
+<p>An iframe with a thin black border:</p>
+<iframe src="https://makeoverbythanu.in" width="100%" height="300" style="border:1px solid black;">
+</iframe>
+
+<p>An iframe with no borders:</p>
+<iframe src="https://templetonfs.com" width="100%" height="300" style="border:none;">
+</iframe>
+<iframe width="560" height="315" src="C:\Users\hp\Desktop\Jai_Bhim_700Mb.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<video width="560" height="315"  autoplay muted="false">
+   
+
+   <source src="C:\Users\hp\Desktop\Jai_Bhim_700Mb.mp4">
+
+</video>
+
+<marquee class="marq">Hello</marquee>
+<div class="scroll-text">
+  <p>This text will scroll from top to bottom</p>
+</div>
+
+  <h2> List Of Inputs in HTML </h2>
+  
+  <input type="checkbox">Check If you are 18+ *<br><br>
+  <input type="color">Choose the color of cloth<br><br>
+  <label>Choose You birth date</label>
+  <input type="date"><br><br>
+  <input type="email" placeholder="Enter Your Mail"><br><br>
+  <input type="file">Input the required file<br><br>
+  <input type="month">Month Of admission<br><br>
+  <input type="number" placeholder="Enter Your Age"><br><br>
+
+  <input type="password"> Enter the password<br><br>
+  <input type="radio">Click If You agree<br><br>
+  <input type="range">Enter your experience level<br><br>
+  <input type="reset">Reset the form<br><br>
+  <input type="search" placeholder="Search the word"><br><br>
+  <input type="submit">Submit the form<br><br>
+  <button>Send</button>
+  <input type="text" > Enter your views<i class="fa-brands fa-facebook"></i><br><br>
+<input type="text" placeholder="enter your contact">
+
+<script>
+
+// redirect to google after 5 seconds
+window.setTimeout(function() {
+    window.location.href = 'index.html';
+}, 5000);
+</script>
+
+   </body>
+</html>
